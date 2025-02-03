@@ -12,8 +12,14 @@ public class Customer {
 	String name;
 	String address;
 	int mobile;
+	
+	
+	
+	
+	
 	public Customer() {
-		
+		super();
+		// TODO Auto-generated constructor stub
 	}
 	public int getCustId() {
 		return custId;

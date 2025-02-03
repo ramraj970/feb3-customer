@@ -10,7 +10,7 @@ public class CustomerService {
 	@Autowired
  CustomerRepo custrepo;
 
-public void addNewCustomer(Customer custData) {
+  public void addNewCustomer(Customer custData) {
 	custrepo.save(custData);
 
 	
