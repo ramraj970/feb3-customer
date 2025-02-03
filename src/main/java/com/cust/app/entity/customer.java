@@ -4,7 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
 @Entity
-public class customer {
+public class Customer {
 	
 
     @Id
@@ -12,7 +12,7 @@ public class customer {
 	String name;
 	String address;
 	int mobile;
-	public customer() {
+	public Customer() {
 		
 	}
 	public int getCustId() {
